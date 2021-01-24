@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+// @ts-ignore
+import BackToTop from "react-back-to-top-button";
 function App() {
   const [isMenuActive, setIsMenuActive] = React.useState(false);
   var prevScrollpos = window.pageYOffset;
@@ -125,12 +127,12 @@ function App() {
                 Hello ❄
               </h2>
               <p className="is-size-4">
-                I am a Software Engineer with interest in building, learning and
-                working on large-scale applications
+                I am a Software Engineer with interest in building, learning
+                about and working on large-scale applications
               </p>
               <br></br>
-              <div className="columns is-centered  is-mobile">
-                <div className="column is-1">
+              <div className="columns is-centered is-mobile">
+                <div className="column is-2">
                   <a href="mailto:ragy.design@gmail.com">
                     <span className="icon">
                       <i
@@ -140,7 +142,7 @@ function App() {
                     </span>
                   </a>
                 </div>
-                <div className="column is-1">
+                <div className="column is-2">
                   <a href="https://www.linkedin.com/in/raggi-h/">
                     <span className="icon">
                       <i
@@ -151,7 +153,7 @@ function App() {
                   </a>
                 </div>
 
-                <div className="column is-1">
+                <div className="column is-2">
                   <a href="https://github.com/ragrag">
                     <span className="icon">
                       <i
@@ -161,7 +163,7 @@ function App() {
                     </span>
                   </a>
                 </div>
-                <div className="column is-1">
+                <div className="column is-2">
                   <a href="https://dev.to/ragrag">
                     <span className="icon">
                       <i
@@ -173,13 +175,15 @@ function App() {
                 </div>
               </div>
             </div>
+            <br></br>
             <hr />
+            <br></br>
             <div id="interests-section">
               <h3 className="is-size-3" style={{ whiteSpace: "nowrap" }}>
-                Technologies/Interests
+                Technologies / Interests
               </h3>
               <p className="is-size-5">
-                Technologies/Topics I enjoy learning about and using
+                Technologies and topics I enjoy learning about and using
               </p>
             </div>
 
@@ -300,7 +304,7 @@ function App() {
                 <div className="column has-text-centered is-3">
                   <span className="icon">
                     <i
-                      className="fab fa-hive fa-2x "
+                      className="fab fa-hive fa-2x"
                       style={{ color: "#666" }}
                     ></i>
                   </span>
@@ -329,9 +333,9 @@ function App() {
                 </div>
               </div>
             </div>
-
+            <br></br>
             <hr />
-
+            <br></br>
             <div id="articles-section">
               <div>
                 <span
@@ -469,9 +473,70 @@ function App() {
                 </div>
               </div>
             </div>
+            <br></br>
+            <hr></hr>
+            <br></br>
+            <div id="projects-section">
+              <div>
+                <span
+                  className="is-size-3"
+                  style={{
+                    whiteSpace: "nowrap",
+                    display: "inline-block",
+                    marginRight: "10px",
+                  }}
+                >
+                  My Recent Projects
+                </span>
+              </div>
+              <br></br>
+              <div className="columns is-centered is-mobile">
+                <div className="column">
+                  <div className="card">
+                    <div className="card-image">
+                      <figure className="image is-4by3">
+                        <img
+                          src="https://bulma.io/images/placeholders/1280x960.png"
+                          alt="Placeholder image"
+                        />
+                      </figure>
+                    </div>
+                    <div className="card-content">
+                      <div className="media">
+                        <div className="media-left">
+                          <figure className="image is-48x48">
+                            <img
+                              src="https://bulma.io/images/placeholders/96x96.png"
+                              alt="Placeholder image"
+                            />
+                          </figure>
+                        </div>
+                        <div className="media-content">
+                          <p className="title is-4">John Smith</p>
+                          <p className="subtitle is-6">@johnsmith</p>
+                        </div>
+                      </div>
+
+                      <div className="content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                        <a href="#">#css</a> <a href="#">#responsive</a>
+                        <br />
+                        <time dateTime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <BackToTop showOnScrollUp={false} showAt={100}>
+        <span className="icon">
+          <i className="fas fa-angle-up fa-lg" style={{ color: "#FFF" }}></i>
+        </span>
+      </BackToTop>
     </div>
   );
 }
