@@ -492,7 +492,7 @@ function App() {
               <br></br>
               <div className="columns is-centered is-mobile">
                 <div className="column">
-                  <div className="card">
+                  {/* <div className="card">
                     <div className="card-image">
                       <figure className="image is-4by3">
                         <img
@@ -525,7 +525,7 @@ function App() {
                         <time dateTime="2016-1-1">11:09 PM - 1 Jan 2016</time>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
