@@ -133,7 +133,11 @@ function App() {
               <br></br>
               <div className="columns is-centered is-mobile">
                 <div className="column is-2">
-                  <a href="mailto:ragy.design@gmail.com">
+                  <a
+                    href="mailto:ragy.design@gmail.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <span className="icon">
                       <i
                         className="fas fa-lg fa-envelope"
@@ -143,7 +147,11 @@ function App() {
                   </a>
                 </div>
                 <div className="column is-2">
-                  <a href="https://www.linkedin.com/in/raggi-h/">
+                  <a
+                    href="https://www.linkedin.com/in/raggi-h/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <span className="icon">
                       <i
                         className="fab fa-lg fa-linkedin"
@@ -154,7 +162,11 @@ function App() {
                 </div>
 
                 <div className="column is-2">
-                  <a href="https://github.com/ragrag">
+                  <a
+                    href="https://github.com/ragrag"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <span className="icon">
                       <i
                         className="fab fa-lg fa-github"
@@ -164,7 +176,11 @@ function App() {
                   </a>
                 </div>
                 <div className="column is-2">
-                  <a href="https://dev.to/ragrag">
+                  <a
+                    href="https://dev.to/ragrag"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <span className="icon">
                       <i
                         className="fab fa-lg fa-dev"
@@ -174,7 +190,11 @@ function App() {
                   </a>
                 </div>
                 <div className="column is-2">
-                  <a href="https://drive.google.com/file/d/1eH8aANab0k1SdxrylQGqhoam60JCgoqC/view?usp=sharing">
+                  <a
+                    href="https://drive.google.com/file/d/1eH8aANab0k1SdxrylQGqhoam60JCgoqC/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <span className="icon">
                       <i
                         className="far fa-file"
